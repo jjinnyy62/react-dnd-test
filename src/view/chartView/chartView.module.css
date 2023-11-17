@@ -1,0 +1,9 @@
+.grid {
+  display: grid;
+  /* grid-template-columns: repeat(10, 1fr); */
+  grid-template-columns: repeat(10, 10vw);
+  grid-template-rows: repeat(20, 10vh); /* auto-fill로 해놓으면 화면 키웠다가 줄였다가 반복했을 때 grid 크기가 돌아오지 않음 */
+  /* grid-template-rows: repeat(auto-fill, 1fr); */
+  /* grid-template-rows: repeat(10, 10vh); */
+  gap: 0.5em;
+}

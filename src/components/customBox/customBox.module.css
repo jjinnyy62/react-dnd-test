@@ -1,0 +1,10 @@
+.container {
+  border: 1px solid #444; /* 테두리 색상을 어두운 모드에 맞게 조정 */
+  border-radius: 10px; /* 모서리 둥글게 */
+  padding: 20px; /* 내부 여백 */
+  margin: 20px auto; /* 외부 여백 및 가운데 정렬 */
+  background-color: #333; /* 컨테이너 배경색 */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6); /* 그림자 효과 강조 */
+  color: #ddd; /* 글자 색상 */
+  max-width: 600px; /* 최대 너비 */
+}
